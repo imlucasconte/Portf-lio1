@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+        height:100%;
+        display: block;
+        }
+head{
+        display: none;
+}
+body    {
+      	margin:        0;
+      	padding:       0;
+      	border:        none;
+      	background:    #ffe;
+      	color:         #333;
+	       }
+
+fieldset {
+        margin:        10px;
+        padding:       20px;
+        border-radius: 10px;
+        border-color: #F1F1F1;
+        border-style: groove;
+        }
+legend  {
+        font-family:  calibri;
+        font-weight:  bold;
+        font-style:   italic;
+        font-size:    24px;
+        color:        #0000;
+        padding:      0px 15px;
+        }
+
+input   {
+        border-radius: 5px;
+    		width: 150px;
+    		font: 12px/15 Helvetica;
+    		font-weight: bold;
+    		text-align: center;
+        }
+
+div, dl, dt, li, p, span, ul {
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        line-height: 1;
+        }
+div, dl, dt, li, p, span, ul {
+        font-family: "Segoe UI","Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+        }
+
+a, body, button, dd, div, dl, dt, li, p, span, ul {
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        line-height: 1;
+        }
+h1      {
+      	text-align: center;
+      	font-size: 25px;
+      	padding: 20px;
+        }
+
+#nav li {
+       display: inline-block;
+        }
+#nav a  {
+    	  border-right: 0;
+        display: block;
+        padding: 10px 17.2px;
+        font-weight: 400;
+        font-size: 1em;
+        }
+#nav a {
+        text-decoration: none;
+        color: #333333;
+        font-weight: bold;
+        }
+#nav    {
+       position:relative;
+       display: inline;
+        }
+
+
+#alinha ul {
+        height:auto;
+        margin:0;
+        padding:0;
+        display: block;
+        border-right:1px;
+        text-align: center;
+        }
+#nav .prodList, .contList, .mascList, .homeList{
+       text-indent: 40px;
+       font: 17px/1.5 Helvetica;
+       font-weight: bold;
+       text-align: center;
+       cursor:  pointer;
+       padding: 5px;
+       position: center;
+        }
+#nav .ajudaCabe, .atendimento{
+      	font: 12px/1.5 Helvetica;
+      	font-weight: inherit;
+      	text-indent: 50px;
+      	text-align: center;
+        cursor:  pointer;
+      	}
+img     {
+        width: 100%;
+        }
+
+#legenda {
+        position:         absolute;
+        bottom:           10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color:            #fff;
+        width:            100%;
+        text-align:       center;
+        box-sizing:       border-box;
+        padding:          10px;
+         }
+
+#container div{
+        margin-right: auto;
+        margin-left: auto;
+        position: center;
+        padding: 15px;
+        background-color: white;
+}
+hr      {
+        color: #000;
+        height: 4px;
+        opacity:          0.7;
+        }
+
+h1 {
+        text-align:       center;
+        background-color: #f1f1f1;
+    }
+
+p {
+        font-weight: bold;
+        font-size:   18px;
+    }
+#shoe{
+        width:            100%;
+        height:           auto;
+        margin:           0 auto;
+        position:         relative;
+        background-color: #000;
+        top: 20px;
+        }
+#boxImg {
+        width:            100%;
+        height:           auto;
+        margin:           0 auto;
+        position:         relative;
+        background-color: #000;
+        top: 20px;
+    }
+    #flechaEsq, #flechaDir {
+        position:         absolute;
+        top:              170px;
+        opacity:          0.7;
+        background-color: #ccc;
+        border-radius:    50%;
+        width:            60px;
+        height:           60px;
+        cursor:           pointer;
+        box-sizing:       border-box;
+    }
+    #flechaEsq {
+        left:    20px;
+        padding: 8px 0px 0px 9px;
+    }
+    #flechaDir {
+        right: 20px;
+        padding: 8px 0px 0px 16px;
+    }
+    #legenda {
+        position:         absolute;
+        bottom:           10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color:            #fff;
+        width:            100%;
+        text-align:       center;
+        box-sizing:       border-box;
+        padding:          10px;
+    }
+    #desconto  { width: 50%; height: 50%; padding: 3px; position: center;}
+    #logotipo  { width: 10%; height: 5%; padding: 3px;}
+    #copyedit  {text-align: center;}
+// ----------- AQUI VAI AS CLASSES -----------
+
+.container {width: 100%;}
+.a-right   {text-align: right;}
+.col-md-6  {width: 50%;}
+.home      {width: 10%;}
+.title     {text-align: center; opacity: 20%;}
+.content   {overflow:hidden;}
+.aside     {width:200px;}
+.fleft     {float:left;}
+.fright    {float:right;}
+.alinha    {width:90%; height:80px; margin:0 5%; text-align: center;}
+.logotipo  {width:9%; height:auto; margin:0 auto; position:relative;padding: 3px; position: 0 relative; display: block; margin-left:auto; margin-right: auto; max-width: 90px;}
+.copyright {position: center; margin: 0 auto;}
+.lado      {position: relative;float:left;margin:   10px; border:   1px;}
+.homeList  { width: 10%; height: 5%; padding: 3px;}
+.col-md-12 {padding: 5px; }
+.lado      {padding: 20px; background-color: white;}
+.botoes    { height: 50px;}
+.home      {width: 30%}
+.linkls{color: #111;}
+.linkls:hover{color: #111;}
+.bg-claro{background-color: #E6DFD9;}
+.main_footer{padding: 20px;}
+.main_footer li{margin-top: 9px; color: #111;}
+.main_footer li a {color: #111;}
+.main_footer hr{color: #ccc !important;}
+.main_footer li:hover{text-decoration: underline;}
